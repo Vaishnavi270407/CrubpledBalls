@@ -12,7 +12,7 @@ class Box{
     display(){
         var pos =this.body.position;
         rectMode(CENTER);
-        fill("pink");
+        fill("grey");
         rect(pos.x, pos.y, this.width, this.height);
     }    
 }
